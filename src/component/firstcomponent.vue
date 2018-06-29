@@ -9,9 +9,14 @@
 export default {
   data () {
     return {
-      author: "MW"
+    //   author: "MW"
     }
-  }
+  },
+  computed: {
+      author () {
+        return this.$store.state.author
+      }
+    }
 }
 </script>
 

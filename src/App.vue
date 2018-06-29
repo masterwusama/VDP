@@ -3,7 +3,7 @@
     <!-- <img src="./assets/logo.png">
     <h1>{{ msg }}</h1> -->
     <!-- <firstcomponent></firstcomponent> -->
-    <router-link to="/first">Go to first</router-link>
+    <router-link to="/first1">Go to first1</router-link>
     <router-link to="/second">Go to second</router-link>
     <router-view></router-view>
   </div>
@@ -17,7 +17,7 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
-  },
+  }
   // components: { firstcomponent }
 }
 </script>
