@@ -1,2 +1,1 @@
 # VDP
-Vue Demo Project
